@@ -6,8 +6,8 @@ require 'flowerpot/version'
 Gem::Specification.new do |spec|
   spec.name          = "flowerpot"
   spec.version       = Flowerpot::VERSION
-  spec.authors       = ["Ruben Schuller"]
-  spec.email         = ["schuller@bytemine.net"]
+  spec.authors       = ["bytemine GmbH"]
+  spec.email         = ["support@bytemine.net"]
   spec.homepage      = "https://github.com/bytemine/flowerpot"
 
   spec.summary       = "Flowerpot is a wrapper for various messaging channels."
