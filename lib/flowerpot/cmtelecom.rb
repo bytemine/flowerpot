@@ -95,7 +95,7 @@ module Flowerpot
 
       message.token = @token
       
-      uri = URI('https://gw.cmtelecom.com/v1.0/message')
+      uri = URI('https://gw.messaging.cm.com/v1.0/message')
       req = Net::HTTP::Post.new(uri, 'Content-Type' => 'application/json')
       req.body = message.to_json
       res = Net::HTTP.start(uri.hostname, uri.port, :use_ssl => uri.scheme == 'https') do |http|
